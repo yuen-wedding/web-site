@@ -790,7 +790,7 @@ button:hover {
   width: 100%;
 }
 
-.s-about .s-about_inner .s-about_message {
+.s-about .s-about_inner .s-about_message .s-about_message_main {
   font-size: 54px;
   font-weight: 400px;
   line-height: 1.36;
@@ -799,15 +799,45 @@ button:hover {
 }
 
 @media screen and (max-width: 767px) {
-  .s-about .s-about_inner .s-about_message {
+  .s-about .s-about_inner .s-about_message .s-about_message_main {
     font-size: 38px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .s-about .s-about_inner .s-about_message {
+  .s-about .s-about_inner .s-about_message .s-about_message_main {
     text-align: center;
   }
+}
+
+.s-about .s-about_inner .s-about_message .s-about_message_annotation {
+  margin-top: 32px;
+  font-size: 15px;
+  font-weight: 400px;
+  line-height: 2.7;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .s-about .s-about_inner .s-about_message .s-about_message_annotation {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    line-height: 2.3;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .s-about .s-about_inner .s-about_message .s-about_message_annotation {
+    margin-top: 20px;
+    padding: 0 20px;
+    line-height: 1.4;
+  }
+}
+
+.s-about .s-about_inner .s-about_message .s-about_message_annotation a {
+  text-decoration: underline;
 }
 
 .s-about .s-about_inner .s-about_visual {
@@ -1553,8 +1583,6 @@ button:hover {
 
 .s-plan-1 .s-inner .s-plan-1__table {
   width: 100%;
-  border: 2px solid;
-  border-radius: 2px;
   position: relative;
 }
 
@@ -1572,6 +1600,7 @@ button:hover {
   display: flex;
   margin: 0;
   padding: 0;
+  border: 2px solid;
 }
 
 @media screen and (max-width: 767px) {
@@ -1583,18 +1612,13 @@ button:hover {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    border: 3px solid;
+    border: 2px solid;
   }
 }
 
 .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList:nth-of-type(n + 2) {
   border-top: 2px solid;
-}
-
-@media screen and (max-width: 767px) {
-  .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList:nth-of-type(n + 2) {
-    margin-top: 20px;
-  }
+  margin-top: 20px;
 }
 
 .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle {
