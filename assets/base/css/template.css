@@ -1455,8 +1455,8 @@ button:hover {
 }
 
 .s-mainvisual .s-mainvisual_inner .s-mainvisual_bgImg_list .s-mainvisual_bgImg_slide.splide__slide .s-mainvisual_bgImg_image {
-  -webkit-transition: 9s ease-out;
-  transition: 9s ease-out;
+  -webkit-transition: 6s ease-out;
+  transition: 6s ease-out;
 }
 
 @media screen and (max-width: 767px) {
