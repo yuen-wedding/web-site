@@ -1678,6 +1678,19 @@ button:hover {
   }
 }
 
+.s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_price .s-plan-1__tableTitle_price_label {
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 1.4;
+  letter-spacing: 0.07em;
+}
+
+@media screen and (max-width: 767px) {
+  .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_price .s-plan-1__tableTitle_price_label {
+    font-size: 11px;
+  }
+}
+
 .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableDescription {
   width: 60%;
   padding: 20px;
