@@ -1141,6 +1141,65 @@ button:hover {
   }
 }
 
+.s-company {
+  width: 100%;
+  margin-top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .s-company {
+    padding: 10px;
+    margin-top: 100px;
+  }
+}
+
+.s-company .s-company_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding: 40px 200px;
+  border: 2px solid #ededf1;
+}
+
+@media screen and (max-width: 767px) {
+  .s-company .s-company_main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px;
+  }
+}
+
+.s-company .s-company_main table {
+  margin: 0 auto;
+}
+
+.s-company .s-company_main table tbody tr td {
+  font-size: 14px;
+  font-weight: 500px;
+  line-height: 2.45;
+  letter-spacing: 0.2em;
+}
+
+@media screen and (max-width: 767px) {
+  .s-company .s-company_main table tbody tr td {
+    font-size: 13px;
+    letter-spacing: 0.16em;
+    line-height: 2.2;
+  }
+}
+
+.s-company .s-company_main table tbody tr td:nth-of-type(1) {
+  padding-right: 40px;
+}
+
 .s-concept {
   width: 100%;
   padding-left: calc((100vw - 1280px) / 2);
