@@ -3110,6 +3110,20 @@ button:hover {
   }
 }
 
+.s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_price .s-plan-1__tableTitle_price_prelabel {
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 1.4;
+  letter-spacing: 0.07em;
+  letter-spacing: 0.1em;
+}
+
+@media screen and (max-width: 767px) {
+  .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_price .s-plan-1__tableTitle_price_prelabel {
+    font-size: 11px;
+  }
+}
+
 .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_price .s-plan-1__tableTitle_price_label {
   font-size: 12px;
   font-weight: 400px;
@@ -3119,6 +3133,70 @@ button:hover {
 
 @media screen and (max-width: 767px) {
   .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_price .s-plan-1__tableTitle_price_label {
+    font-size: 11px;
+  }
+}
+
+.s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_campaign {
+  margin-top: 30px;
+  margin-bottom: -20px;
+}
+
+.s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_campaign .s-plan-1__tableTitle_campaign_description {
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 1.4;
+  letter-spacing: 0.07em;
+  color: #e05a00;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 767px) {
+  .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_campaign .s-plan-1__tableTitle_campaign_description {
+    font-size: 11px;
+  }
+}
+
+.s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_campaign .s-plan-1__tableTitle_campaign_price {
+  font-size: 25px;
+  font-weight: 500px;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  margin-top: 0px;
+  color: #e05a00;
+}
+
+@media screen and (max-width: 767px) {
+  .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_campaign .s-plan-1__tableTitle_campaign_price {
+    font-size: 24px;
+  }
+}
+
+.s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_campaign .s-plan-1__tableTitle_campaign_price .s-plan-1__tableTitle_campaign_price_prelabel {
+  font-size: 14px;
+  font-weight: 500px;
+  line-height: 2.45;
+  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
+}
+
+@media screen and (max-width: 767px) {
+  .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_campaign .s-plan-1__tableTitle_campaign_price .s-plan-1__tableTitle_campaign_price_prelabel {
+    font-size: 13px;
+    letter-spacing: 0.16em;
+    line-height: 2.2;
+  }
+}
+
+.s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_campaign .s-plan-1__tableTitle_campaign_price .s-plan-1__tableTitle_campaign_price_label {
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 1.4;
+  letter-spacing: 0.07em;
+}
+
+@media screen and (max-width: 767px) {
+  .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_campaign .s-plan-1__tableTitle_campaign_price .s-plan-1__tableTitle_campaign_price_label {
     font-size: 11px;
   }
 }
@@ -3164,6 +3242,25 @@ button:hover {
 
 @media screen and (max-width: 767px) {
   .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList_caption {
+    font-size: 13px;
+    letter-spacing: 0.16em;
+    line-height: 2.2;
+  }
+}
+
+.s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList_caption_campaign {
+  margin-top: -10px;
+  font-size: 14px;
+  font-weight: 500px;
+  line-height: 2.45;
+  letter-spacing: 0.2em;
+  color: #e05a00;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+@media screen and (max-width: 767px) {
+  .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList_caption_campaign {
     font-size: 13px;
     letter-spacing: 0.16em;
     line-height: 2.2;
