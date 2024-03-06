@@ -1574,7 +1574,7 @@ button:hover {
 }
 
 .s-about .s-about_inner .s-about_message .s-about_message_main {
-  font-size: 54px;
+  font-size: 38px;
   font-weight: 400px;
   line-height: 1.36;
   letter-spacing: 0.11em;
@@ -1583,7 +1583,7 @@ button:hover {
 
 @media screen and (max-width: 767px) {
   .s-about .s-about_inner .s-about_message .s-about_message_main {
-    font-size: 38px;
+    font-size: 28px;
   }
 }
 
@@ -1595,19 +1595,17 @@ button:hover {
 
 .s-about .s-about_inner .s-about_message .s-about_message_annotation {
   margin-top: 32px;
-  font-size: 15px;
-  font-weight: 400px;
-  line-height: 2.7;
-  letter-spacing: 0.2em;
+  font-size: 25px;
+  font-weight: 500px;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  color: #e05a00;
   text-align: center;
 }
 
 @media screen and (max-width: 767px) {
   .s-about .s-about_inner .s-about_message .s-about_message_annotation {
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.16em;
-    line-height: 2.3;
+    font-size: 24px;
   }
 }
 
@@ -1621,6 +1619,7 @@ button:hover {
 
 .s-about .s-about_inner .s-about_message .s-about_message_annotation a {
   text-decoration: underline;
+  color: #e05a00;
 }
 
 .s-about .s-about_inner .s-about_visual {
@@ -2562,6 +2561,199 @@ button:hover {
   }
 }
 
+.s-case {
+  width: 100%;
+  max-width: 1280px;
+  margin: 100px auto 0;
+}
+
+@media screen and (max-width: 767px) {
+  .s-case {
+    margin: 360px auto 80px auto;
+  }
+}
+
+.s-case .s-case_inner {
+  padding: 100px;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 55px;
+}
+
+@media screen and (max-width: 767px) {
+  .s-case .s-case_inner {
+    padding: 0;
+    display: block;
+  }
+}
+
+.s-case .s-case_inner .s-case_message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  gap: 0px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.s-case .s-case_inner .s-case_message .s-case_message_bg {
+  color: #ededf1;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  font-size: 100px;
+  font-weight: 400px;
+  line-height: 1.35;
+  letter-spacing: 0.02em;
+}
+
+@media screen and (max-width: 767px) {
+  .s-case .s-case_inner .s-case_message .s-case_message_bg {
+    font-size: 69px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .s-case .s-case_inner .s-case_message .s-case_message_bg {
+    -webkit-writing-mode: horizontal-tb;
+    -ms-writing-mode: lr-tb;
+    writing-mode: horizontal-tb;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .s-case .s-case_inner .s-case_main .s-case_instagram {
+    margin-top: 40px;
+    width: 100%;
+    padding: 0 40px;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .s-case .s-case_inner .s-case_main .s-case_instagram::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.s-case .s-case_inner .s-case_main .s-case_instagram .s-case_instagram_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .s-case .s-case_inner .s-case_main .s-case_instagram .s-case_instagram_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+}
+
+.s-case .s-case_inner .s-case_main .s-case_instagram .s-case_instagram_list .s-case_instagram_item {
+  max-width: 300px;
+}
+
+@media screen and (max-width: 767px) {
+  .s-case .s-case_inner .s-case_main .s-case_instagram .s-case_instagram_list .s-case_instagram_item {
+    max-width: 100%;
+    min-width: 100%;
+    display: block;
+    width: 100%;
+  }
+}
+
+.s-case .s-case_inner .s-case_main .s-case_instagram .s-case_instagram_list .s-case_instagram_item iframe {
+  width: 100% !important;
+  min-width: 100% !important;
+}
+
+@media screen and (max-width: 767px) {
+  .s-case .s-case_inner .s-case_main .s-case_instagram .s-case_instagram_list .s-case_instagram_item iframe {
+    min-width: 100% !important;
+  }
+}
+
+.s-case .s-case_inner .s-case_main .s-case_instagram .s-case_instagram_list .s-case_instagram_item:nth-of-type(n + 2) {
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .s-case .s-case_inner .s-case_main .s-case_instagram .s-case_instagram_list .s-case_instagram_item:nth-of-type(n + 2) {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .s-case .s-case_inner .s-case_main .s-case_instagram .s-case_instagram_list .s-case_instagram_item:nth-last-of-type(1) {
+    padding-right: 40px;
+  }
+}
+
+.s-case .s-case_inner .s-case_main .s-case_interior {
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .s-case .s-case_inner .s-case_main .s-case_interior {
+    margin-top: 40px;
+    padding: 0 40px;
+  }
+}
+
+.s-case .s-case_inner .s-case_main .s-case_interior .s-case_interior_list {
+  display: grid;
+  gap: 20px 40px;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 767px) {
+  .s-case .s-case_inner .s-case_main .s-case_interior .s-case_interior_list {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+.s-case .s-case_inner .s-case_main .s-case_interior .s-case_interior_list .s-case_interior_item {
+  width: 300px;
+}
+
+@media screen and (max-width: 767px) {
+  .s-case .s-case_inner .s-case_main .s-case_interior .s-case_interior_list .s-case_interior_item {
+    width: 100%;
+  }
+}
+
+.s-case .s-case_inner .s-case_main .s-case_interior .s-case_interior_list .s-case_interior_item img {
+  width: 100%;
+}
+
 .s-company {
   width: 100%;
   margin-top: 200px;
@@ -2657,7 +2849,7 @@ button:hover {
 
 @media screen and (max-width: 767px) {
   .s-concept .s-concept_inner {
-    padding: 0 0 80px 0;
+    padding: 0 0 40px 0;
     overflow: hidden;
   }
 }
