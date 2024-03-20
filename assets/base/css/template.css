@@ -1799,6 +1799,10 @@ button:hover {
   }
 }
 
+.s-about .s-about_inner .s-about_visual .s-about_content .s-about_content_description a {
+  text-decoration: underline;
+}
+
 .s-access {
   width: 100%;
   max-width: 1280px;
@@ -2662,9 +2666,9 @@ button:hover {
 }
 
 .s-case .s-case_inner .s-case_main .s-case_instagram .s-case_instagram_list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: grid;
+  gap: 20px 40px;
+  grid-template-columns: 1fr 1fr;
 }
 
 @media screen and (max-width: 767px) {
@@ -2752,6 +2756,10 @@ button:hover {
 
 .s-case .s-case_inner .s-case_main .s-case_interior .s-case_interior_list .s-case_interior_item img {
   width: 100%;
+}
+
+.s-case .s-case_inner .s-case_main .s-case_interior .s-case_interior_list .s-case_interior_item .EmbeddedMediaImage {
+  width: auto;
 }
 
 .s-company {
@@ -2928,6 +2936,144 @@ button:hover {
   height: 100%;
   -o-object-fit: contain;
   object-fit: contain;
+}
+
+.s-faq {
+  width: 100%;
+  padding-left: calc((100vw - 1280px) / 2);
+  margin: 120px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+}
+
+@media screen and (max-width: 767px) {
+  .s-faq {
+    margin: 0 auto;
+    padding: 120px 20px 80px;
+  }
+}
+
+.s-faq .s-faq_inner {
+  padding: 100px;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 55px;
+}
+
+@media screen and (max-width: 767px) {
+  .s-faq .s-faq_inner {
+    padding: 0;
+    display: block;
+  }
+}
+
+.s-faq .s-faq_inner .s-faq_message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  gap: 0px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.s-faq .s-faq_inner .s-faq_message .s-faq_message_bg {
+  color: #ededf1;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  font-size: 100px;
+  font-weight: 400px;
+  line-height: 1.35;
+  letter-spacing: 0.02em;
+}
+
+@media screen and (max-width: 767px) {
+  .s-faq .s-faq_inner .s-faq_message .s-faq_message_bg {
+    font-size: 69px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .s-faq .s-faq_inner .s-faq_message .s-faq_message_bg {
+    -webkit-writing-mode: horizontal-tb;
+    -ms-writing-mode: lr-tb;
+    writing-mode: horizontal-tb;
+  }
+}
+
+.s-faq .s-faq_inner .s-faq_message .s-faq_message_text {
+  font-size: 25px;
+  font-weight: 500px;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+  margin-left: -80px;
+}
+
+@media screen and (max-width: 767px) {
+  .s-faq .s-faq_inner .s-faq_message .s-faq_message_text {
+    font-size: 24px;
+  }
+}
+
+.s-faq .s-faq_inner .s-faq_action_description {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.s-faq .s-faq_inner .s-faq_action_description .s-faq_action_description_text {
+  font-size: 14px;
+  font-weight: 500px;
+  line-height: 2.45;
+  letter-spacing: 0.2em;
+}
+
+@media screen and (max-width: 767px) {
+  .s-faq .s-faq_inner .s-faq_action_description .s-faq_action_description_text {
+    font-size: 13px;
+    letter-spacing: 0.16em;
+    line-height: 2.2;
+  }
+}
+
+.s-faq .s-faq_inner .s-faq_action_description .s-faq_action_description_text a {
+  text-decoration: underline;
 }
 
 .s-flow {
