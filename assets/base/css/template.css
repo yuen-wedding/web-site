@@ -2704,13 +2704,19 @@ button:hover {
   }
 }
 
-.s-case .s-case_inner .s-case_main .s-case_instagram .s-case_instagram_list .s-case_instagram_item:nth-of-type(n + 2) {
+@media screen and (max-width: 767px) {
+  .s-case .s-case_inner .s-case_main .s-case_instagram .s-case_instagram_list .s-case_instagram_item:nth-of-type(n + 2) {
+    margin-left: 30px;
+  }
+}
+
+.s-case .s-case_inner .s-case_main .s-case_instagram .s-case_instagram_list .s-case_instagram_item:nth-of-type(2n) {
   margin-left: 40px;
 }
 
 @media screen and (max-width: 767px) {
-  .s-case .s-case_inner .s-case_main .s-case_instagram .s-case_instagram_list .s-case_instagram_item:nth-of-type(n + 2) {
-    margin-left: 30px;
+  .s-case .s-case_inner .s-case_main .s-case_instagram .s-case_instagram_list .s-case_instagram_item:nth-of-type(2n) {
+    margin-left: 0px;
   }
 }
 
@@ -3650,5 +3656,146 @@ button:hover {
     font-size: 13px;
     letter-spacing: 0.16em;
     line-height: 2.2;
+  }
+}
+
+.s-reserve {
+  display: none;
+}
+
+.s-reserve.is-open {
+  display: block;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 100;
+}
+
+.s-reserve.is-open .s-reserve_bg {
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 101;
+}
+
+.s-reserve.is-open .s-reserve_inner {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 20px 40px 40px 40px;
+  background-color: white;
+  z-index: 102;
+}
+
+@media screen and (max-width: 767px) {
+  .s-reserve.is-open .s-reserve_inner {
+    width: calc(100% - 20px);
+  }
+}
+
+.s-reserve.is-open .s-reserve_inner .s-reserve_close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+  font-size: 14px;
+  font-weight: 500px;
+  line-height: 2.45;
+  letter-spacing: 0.2em;
+}
+
+@media screen and (max-width: 767px) {
+  .s-reserve.is-open .s-reserve_inner .s-reserve_close {
+    font-size: 13px;
+    letter-spacing: 0.16em;
+    line-height: 2.2;
+  }
+}
+
+.s-reserve.is-open .s-reserve_inner .s-reserve_textbox .s-reserve_title {
+  font-size: 25px;
+  font-weight: 500px;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .s-reserve.is-open .s-reserve_inner .s-reserve_textbox .s-reserve_title {
+    font-size: 24px;
+  }
+}
+
+.s-reserve.is-open .s-reserve_inner .s-reserve_textbox .s-reserve_description {
+  font-size: 14px;
+  font-weight: 500px;
+  line-height: 2.45;
+  letter-spacing: 0.2em;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .s-reserve.is-open .s-reserve_inner .s-reserve_textbox .s-reserve_description {
+    font-size: 13px;
+    letter-spacing: 0.16em;
+    line-height: 2.2;
+  }
+}
+
+.s-reserve.is-open .s-reserve_inner .s-reserve_textbox .s-reserve_description a {
+  text-decoration: underline;
+}
+
+.s-reserve.is-open .s-reserve_inner .s-reserve_textbox .s-reserve_cta {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.s-reserve.is-open .s-reserve_inner .s-reserve_textbox .s-reserve_cta .s-reserve_ctaButton {
+  border-radius: 2px;
+  padding: 16px 16px;
+  border: solid 1px;
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .s-reserve.is-open .s-reserve_inner .s-reserve_textbox .s-reserve_cta .s-reserve_ctaButton {
+    padding: 0px 16px;
+  }
+}
+
+.s-reserve.is-open .s-reserve_inner .s-reserve_textbox .s-reserve_cta .s-reserve_ctaButton:hover {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.s-reserve.is-open .s-reserve_inner .s-reserve_textbox .s-reserve_cta .s-reserve_ctaButton .s-reserve_ctaButton_text {
+  padding: 0;
+  display: block;
+  font-size: 15px;
+  font-weight: 400px;
+  line-height: 2.7;
+  letter-spacing: 0.2em;
+  line-height: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .s-reserve.is-open .s-reserve_inner .s-reserve_textbox .s-reserve_cta .s-reserve_ctaButton .s-reserve_ctaButton_text {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    line-height: 2.3;
   }
 }
