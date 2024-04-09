@@ -1594,19 +1594,27 @@ button:hover {
 }
 
 .s-about .s-about_inner .s-about_message .s-about_message_annotation {
-  margin-top: 32px;
-  font-size: 25px;
-  font-weight: 500px;
+  margin-top: 16px;
+  font-size: 15px;
+  font-weight: 400px;
+  line-height: 2.7;
+  letter-spacing: 0.2em;
   line-height: 1.4;
-  letter-spacing: 0.1em;
   color: #e05a00;
   text-align: center;
 }
 
 @media screen and (max-width: 767px) {
   .s-about .s-about_inner .s-about_message .s-about_message_annotation {
-    font-size: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    line-height: 2.3;
   }
+}
+
+.s-about .s-about_inner .s-about_message .s-about_message_annotation.-juneBride {
+  color: #0994ff;
 }
 
 @media screen and (max-width: 767px) {
@@ -1619,7 +1627,16 @@ button:hover {
 
 .s-about .s-about_inner .s-about_message .s-about_message_annotation a {
   text-decoration: underline;
-  color: #e05a00;
+}
+
+.s-about .s-about_inner .s-about_message .s-about_message_annotation .only-sp {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .s-about .s-about_inner .s-about_message .s-about_message_annotation .only-sp {
+    display: block;
+  }
 }
 
 .s-about .s-about_inner .s-about_visual {
