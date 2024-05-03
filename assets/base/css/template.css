@@ -3616,8 +3616,8 @@ button:hover {
 
 .s-flow {
   width: 100%;
-  padding-left: calc((100vw - 1280px) / 2);
-  margin: 0 auto;
+  padding-right: calc((100vw - 1280px) / 2);
+  padding-left: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3640,9 +3640,9 @@ button:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-align: center;
@@ -3739,19 +3739,21 @@ button:hover {
 
 .s-flow .s-flow_inner .s-flow_action_list .s-flow_action_list_item:before {
   position: absolute;
-  top: 10px;
+  top: 0px;
   left: 0;
-  font-size: 12px;
-  font-weight: 400px;
-  line-height: 1.4;
-  letter-spacing: 0.07em;
+  font-size: 14px;
+  font-weight: 500px;
+  line-height: 2.45;
+  letter-spacing: 0.2em;
   counter-increment: flow-number 1;
   content: "STEP" counter(flow-number);
 }
 
 @media screen and (max-width: 767px) {
   .s-flow .s-flow_inner .s-flow_action_list .s-flow_action_list_item:before {
-    font-size: 11px;
+    font-size: 13px;
+    letter-spacing: 0.16em;
+    line-height: 2.2;
   }
 }
 
@@ -3792,6 +3794,274 @@ button:hover {
 
 .s-flow .s-flow_inner .s-flow_action_list .s-flow_action_list_item .s-flow_action_list_item_description a {
   text-decoration: underline;
+}
+
+.s-flow .s-flow_inner .s-flow_action_list .s-flow_action_list_item .s-flow_action_list_item_description .is-small {
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 1.4;
+  letter-spacing: 0.07em;
+}
+
+@media screen and (max-width: 767px) {
+  .s-flow .s-flow_inner .s-flow_action_list .s-flow_action_list_item .s-flow_action_list_item_description .is-small {
+    font-size: 11px;
+  }
+}
+
+.s-gift {
+  width: 100%;
+  padding-left: calc((100vw - 1280px) / 2);
+  padding-right: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+}
+
+@media screen and (max-width: 767px) {
+  .s-gift {
+    padding: 120px 20px 0;
+  }
+}
+
+.s-gift .s-gift_inner {
+  padding: 100px;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 55px;
+}
+
+@media screen and (max-width: 767px) {
+  .s-gift .s-gift_inner {
+    padding: 0;
+    display: block;
+  }
+}
+
+.s-gift .s-gift_inner .s-gift_message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  gap: 0px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.s-gift .s-gift_inner .s-gift_message .s-gift_message_bg {
+  color: #ededf1;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  font-size: 100px;
+  font-weight: 400px;
+  line-height: 1.35;
+  letter-spacing: 0.02em;
+}
+
+@media screen and (max-width: 767px) {
+  .s-gift .s-gift_inner .s-gift_message .s-gift_message_bg {
+    font-size: 69px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .s-gift .s-gift_inner .s-gift_message .s-gift_message_bg {
+    -webkit-writing-mode: horizontal-tb;
+    -ms-writing-mode: lr-tb;
+    writing-mode: horizontal-tb;
+  }
+}
+
+.s-gift .s-gift_inner .s-gift_message .s-gift_message_text {
+  font-size: 25px;
+  font-weight: 500px;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+  margin-left: -80px;
+}
+
+@media screen and (max-width: 767px) {
+  .s-gift .s-gift_inner .s-gift_message .s-gift_message_text {
+    font-size: 24px;
+  }
+}
+
+.s-gift .s-gift_inner .s-gift_content .s-gift_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 767px) {
+  .s-gift .s-gift_inner .s-gift_content .s-gift_main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.s-gift .s-gift_inner .s-gift_content .s-gift_main p {
+  margin-top: -40px;
+  margin-left: 40px;
+  font-size: 14px;
+  font-weight: 500px;
+  line-height: 2.45;
+  letter-spacing: 0.2em;
+}
+
+@media screen and (max-width: 767px) {
+  .s-gift .s-gift_inner .s-gift_content .s-gift_main p {
+    font-size: 13px;
+    letter-spacing: 0.16em;
+    line-height: 2.2;
+  }
+}
+
+.s-gift .s-gift_inner .s-gift_content .s-gift_main p a {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+  .s-gift .s-gift_inner .s-gift_content .s-gift_main p {
+    margin: 20px auto 0 auto;
+  }
+}
+
+.s-gift .s-gift_inner .s-gift_content .s-gift_main img {
+  width: 400px;
+}
+
+@media screen and (max-width: 767px) {
+  .s-gift .s-gift_inner .s-gift_content .s-gift_main img {
+    width: 100%;
+    margin: 20px auto 0 auto;
+  }
+}
+
+.s-gift .s-gift_inner .s-gift_content .s-gift_action_list {
+  counter-reset: gift-number 0;
+}
+
+.s-gift .s-gift_inner .s-gift_content .s-gift_action_list .s-gift_action_list_item {
+  margin-top: 80px;
+  padding: 0 0 0 80px;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .s-gift .s-gift_inner .s-gift_content .s-gift_action_list .s-gift_action_list_item {
+    margin-top: 40px;
+  }
+}
+
+.s-gift .s-gift_inner .s-gift_content .s-gift_action_list .s-gift_action_list_item:before {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  font-size: 14px;
+  font-weight: 500px;
+  line-height: 2.45;
+  letter-spacing: 0.2em;
+  counter-increment: gift-number 1;
+  content: "STEP" counter(gift-number);
+}
+
+@media screen and (max-width: 767px) {
+  .s-gift .s-gift_inner .s-gift_content .s-gift_action_list .s-gift_action_list_item:before {
+    font-size: 13px;
+    letter-spacing: 0.16em;
+    line-height: 2.2;
+  }
+}
+
+.s-gift .s-gift_inner .s-gift_content .s-gift_action_list .s-gift_action_list_item .s-gift_action_list_item_title {
+  font-size: 25px;
+  font-weight: 500px;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+}
+
+@media screen and (max-width: 767px) {
+  .s-gift .s-gift_inner .s-gift_content .s-gift_action_list .s-gift_action_list_item .s-gift_action_list_item_title {
+    font-size: 24px;
+  }
+}
+
+.s-gift .s-gift_inner .s-gift_content .s-gift_action_list .s-gift_action_list_item .s-gift_action_list_item_description {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 500px;
+  line-height: 2.45;
+  letter-spacing: 0.2em;
+}
+
+@media screen and (max-width: 767px) {
+  .s-gift .s-gift_inner .s-gift_content .s-gift_action_list .s-gift_action_list_item .s-gift_action_list_item_description {
+    font-size: 13px;
+    letter-spacing: 0.16em;
+    line-height: 2.2;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .s-gift .s-gift_inner .s-gift_content .s-gift_action_list .s-gift_action_list_item .s-gift_action_list_item_description {
+    margin-top: 10px;
+  }
+}
+
+.s-gift .s-gift_inner .s-gift_content .s-gift_action_list .s-gift_action_list_item .s-gift_action_list_item_description a {
+  text-decoration: underline;
+}
+
+.s-gift .s-gift_inner .s-gift_content .s-gift_action_list .s-gift_action_list_item .s-gift_action_list_item_description .is-small {
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 1.4;
+  letter-spacing: 0.07em;
+}
+
+@media screen and (max-width: 767px) {
+  .s-gift .s-gift_inner .s-gift_content .s-gift_action_list .s-gift_action_list_item .s-gift_action_list_item_description .is-small {
+    font-size: 11px;
+  }
 }
 
 .s-mainvisual {
