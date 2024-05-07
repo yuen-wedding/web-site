@@ -3264,7 +3264,7 @@ button:hover {
 
 @media screen and (max-width: 767px) {
   .s-concept .s-concept_inner {
-    padding: 80px 0 40px 0;
+    padding: 80px 0 0 0;
     overflow: hidden;
     gap: 0px;
   }
@@ -3310,7 +3310,7 @@ button:hover {
 
 @media screen and (max-width: 767px) {
   .s-concept .s-concept_inner .s-concept_message .s-concept_message_bg {
-    font-size: 55px;
+    font-size: 48px;
   }
 }
 
@@ -3347,7 +3347,7 @@ button:hover {
 
 @media screen and (max-width: 767px) {
   .s-concept .s-concept_inner .s-concept_display .s-concept_display_list .s-concept_display_slide {
-    width: 320px;
+    width: 300px;
     height: auto;
   }
 }
@@ -3367,7 +3367,7 @@ button:hover {
 
 @media screen and (max-width: 767px) {
   .s-concept .s-concept_inner .s-concept_display .s-concept_display_list .s-concept_display_slide .s-concept_display_image {
-    width: 320px;
+    width: 300px;
   }
 }
 
