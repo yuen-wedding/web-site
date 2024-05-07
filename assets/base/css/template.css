@@ -1590,7 +1590,7 @@ button:hover {
 @media screen and (max-width: 767px) {
   .s-about .s-about_inner .s-about_message .s-about_message_main {
     display: block;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
   }
 }
@@ -2739,20 +2739,24 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .s-case .s-case_inner .s-case_main .s-case_instagram .s-case_instagram_list .s-case_instagram_item:nth-last-of-type(1) {
-    padding-right: 40px;
-  }
-}
-
 .s-case .s-case_inner .s-case_main .s-case_interior {
   margin-top: 80px;
 }
 
 @media screen and (max-width: 767px) {
   .s-case .s-case_inner .s-case_main .s-case_interior {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     margin-top: 40px;
+    width: 100%;
     padding: 0 40px;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .s-case .s-case_inner .s-case_main .s-case_interior::-webkit-scrollbar {
+    display: none;
   }
 }
 
@@ -2764,8 +2768,10 @@ button:hover {
 
 @media screen and (max-width: 767px) {
   .s-case .s-case_inner .s-case_main .s-case_interior .s-case_interior_list {
-    grid-template-columns: 1fr;
-    gap: 40px;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -2775,6 +2781,9 @@ button:hover {
 
 @media screen and (max-width: 767px) {
   .s-case .s-case_inner .s-case_main .s-case_interior .s-case_interior_list .s-case_interior_item {
+    max-width: 100%;
+    min-width: 100%;
+    display: block;
     width: 100%;
   }
 }
