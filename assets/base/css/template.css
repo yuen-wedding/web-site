@@ -912,12 +912,6 @@ button:hover {
   justify-content: end;
 }
 
-@media screen and (max-width: 767px) {
-  .c-header .c-header-inner .c-header__navWrap {
-    width: auto;
-  }
-}
-
 .c-header .c-header-inner .c-header__navWrap .c-header__navList {
   margin-left: 25px;
   font-size: 12px;
@@ -1590,7 +1584,16 @@ button:hover {
 @media screen and (max-width: 767px) {
   .s-about .s-about_inner .s-about_message .s-about_message_main {
     display: block;
-    font-size: 16px;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .s-about .s-about_inner .s-about_message .s-about_message_main .is-small {
+    display: block;
+    line-height: 2.2;
+    font-size: 12px;
     text-align: center;
   }
 }
@@ -3319,7 +3322,7 @@ button:hover {
 
 @media screen and (max-width: 767px) {
   .s-concept .s-concept_inner .s-concept_message .s-concept_message_bg {
-    font-size: 48px;
+    font-size: 42px;
   }
 }
 
@@ -3356,7 +3359,7 @@ button:hover {
 
 @media screen and (max-width: 767px) {
   .s-concept .s-concept_inner .s-concept_display .s-concept_display_list .s-concept_display_slide {
-    width: 300px;
+    width: 280px;
     height: auto;
   }
 }
@@ -3376,7 +3379,7 @@ button:hover {
 
 @media screen and (max-width: 767px) {
   .s-concept .s-concept_inner .s-concept_display .s-concept_display_list .s-concept_display_slide .s-concept_display_image {
-    width: 300px;
+    width: 280px;
   }
 }
 
