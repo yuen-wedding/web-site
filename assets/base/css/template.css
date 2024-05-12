@@ -2676,6 +2676,7 @@ button:hover {
   table-layout: fixed;
   width: 280px;
   padding: 80px 20px 0;
+  margin-left: 0px;
 }
 
 .s-comparison-1 .s-inner .s-comparison-1__tableArea .s-comparison-1__table::before {
@@ -3150,6 +3151,7 @@ button:hover {
   -webkit-writing-mode: horizontal-tb;
   -ms-writing-mode: lr-tb;
   writing-mode: horizontal-tb;
+  text-align: center;
 }
 
 .s-gift .s-gift_inner .s-gift_message .s-gift_message_text {
