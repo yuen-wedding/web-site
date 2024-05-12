@@ -3069,10 +3069,11 @@ button:hover {
 }
 
 .s-flow .s-flow_inner .s-flow_action_list .s-flow_action_list_item .s-flow_action_list_item_description {
-  font-weight: 500px;
-  font-size: 13px;
-  letter-spacing: 0.16em;
-  line-height: 2.2;
+  font-weight: 400px;
+  line-height: 1.4;
+  letter-spacing: 0.07em;
+  font-size: 11px;
+  line-height: 1.8;
   margin-top: 10px;
 }
 
@@ -3218,10 +3219,11 @@ button:hover {
 }
 
 .s-gift .s-gift_inner .s-gift_content .s-gift_action_list .s-gift_action_list_item .s-gift_action_list_item_description {
-  font-weight: 500px;
-  font-size: 13px;
-  letter-spacing: 0.16em;
-  line-height: 2.2;
+  font-weight: 400px;
+  line-height: 1.4;
+  letter-spacing: 0.07em;
+  font-size: 11px;
+  line-height: 1.8;
   margin-top: 10px;
 }
 
@@ -3455,10 +3457,11 @@ button:hover {
 }
 
 .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableDescription table tbody tr td {
-  font-weight: 500px;
-  font-size: 13px;
-  letter-spacing: 0.16em;
-  line-height: 2.2;
+  font-weight: 400px;
+  line-height: 1.4;
+  letter-spacing: 0.07em;
+  font-size: 11px;
+  line-height: 1.8;
 }
 
 .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableDescription table tbody tr td:nth-of-type(1) {
