@@ -741,6 +741,7 @@ button:hover {
 
 .c-cta .c-cta-inner .c-cta__button.-left {
   background: #62cf77;
+  padding-right: 10px;
 }
 
 .c-cta .c-cta-inner .c-cta__button.-left .c-cta-icon {
@@ -802,7 +803,7 @@ button:hover {
   font-weight: 400px;
   line-height: 1.36;
   letter-spacing: 0.11em;
-  font-size: 38px;
+  font-size: 34px;
   font-family: "Cinzel";
   color: #01073a;
 }
@@ -1718,10 +1719,10 @@ button:hover {
 }
 
 .s-about .s-about_inner .s-about_visual .s-about_content .s-about_content_title {
-  font-weight: 400px;
-  line-height: 1.36;
-  letter-spacing: 0.11em;
-  font-size: 38px;
+  font-weight: 500px;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  font-size: 24px;
 }
 
 .s-about .s-about_inner .s-about_visual .s-about_content .s-about_content_subTitle {
@@ -1732,6 +1733,7 @@ button:hover {
 }
 
 .s-about .s-about_inner .s-about_visual .s-about_content .s-about_content_description {
+  margin-top: 16px;
   font-weight: 500px;
   font-size: 13px;
   letter-spacing: 0.16em;
@@ -1756,11 +1758,11 @@ button:hover {
   text-align: center;
   top: 0;
   right: 0;
-  color: #ededf1;
+  color: #666666;
   font-weight: 400px;
   line-height: 1.36;
   letter-spacing: 0.11em;
-  font-size: 38px;
+  font-size: 34px;
   position: relative;
   -webkit-writing-mode: horizontal-tb;
   -ms-writing-mode: lr-tb;
@@ -1887,7 +1889,7 @@ button:hover {
   font-weight: 400px;
   line-height: 1.36;
   letter-spacing: 0.11em;
-  font-size: 38px;
+  font-size: 34px;
   margin: 0;
 }
 
@@ -2449,11 +2451,11 @@ button:hover {
 }
 
 .s-case .s-case_inner .s-case_message .s-case_message_bg {
-  color: #ededf1;
+  color: #666666;
   font-weight: 400px;
   line-height: 1.36;
   letter-spacing: 0.11em;
-  font-size: 38px;
+  font-size: 34px;
   -webkit-writing-mode: horizontal-tb;
   -ms-writing-mode: lr-tb;
   writing-mode: horizontal-tb;
@@ -2587,7 +2589,7 @@ button:hover {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: end;
-  padding: 40px 0px 0;
+  padding: 80px 0px 0;
 }
 
 .s-comparison-1 .s-inner {
@@ -2629,11 +2631,11 @@ button:hover {
 }
 
 .s-comparison-1 .s-inner .s-comparison_message .s-comparison_message_bg {
-  color: #ededf1;
+  color: #666666;
   font-weight: 400px;
   line-height: 1.36;
   letter-spacing: 0.11em;
-  font-size: 38px;
+  font-size: 34px;
   -webkit-writing-mode: horizontal-tb;
   -ms-writing-mode: lr-tb;
   writing-mode: horizontal-tb;
@@ -2923,11 +2925,11 @@ button:hover {
 }
 
 .s-faq .s-faq_inner .s-faq_message .s-faq_message_bg {
-  color: #ededf1;
+  color: #666666;
   font-weight: 400px;
   line-height: 1.36;
   letter-spacing: 0.11em;
-  font-size: 38px;
+  font-size: 34px;
   -webkit-writing-mode: horizontal-tb;
   -ms-writing-mode: lr-tb;
   writing-mode: horizontal-tb;
@@ -3020,11 +3022,11 @@ button:hover {
 }
 
 .s-flow .s-flow_inner .s-flow_message .s-flow_message_bg {
-  color: #ededf1;
+  color: #666666;
   font-weight: 400px;
   line-height: 1.36;
   letter-spacing: 0.11em;
-  font-size: 38px;
+  font-size: 34px;
   -webkit-writing-mode: horizontal-tb;
   -ms-writing-mode: lr-tb;
   writing-mode: horizontal-tb;
@@ -3140,11 +3142,11 @@ button:hover {
 }
 
 .s-gift .s-gift_inner .s-gift_message .s-gift_message_bg {
-  color: #ededf1;
+  color: #666666;
   font-weight: 400px;
   line-height: 1.36;
   letter-spacing: 0.11em;
-  font-size: 38px;
+  font-size: 34px;
   -webkit-writing-mode: horizontal-tb;
   -ms-writing-mode: lr-tb;
   writing-mode: horizontal-tb;
@@ -3285,7 +3287,7 @@ button:hover {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: start;
-  padding: 160px 20px 0;
+  padding: 200px 20px 0;
 }
 
 .s-plan-1 .s-inner {
@@ -3329,11 +3331,11 @@ button:hover {
 }
 
 .s-plan-1 .s-inner .s-plan_message .s-plan_message_bg {
-  color: #ededf1;
+  color: #666666;
   font-weight: 400px;
   line-height: 1.36;
   letter-spacing: 0.11em;
-  font-size: 38px;
+  font-size: 34px;
   -webkit-writing-mode: horizontal-tb;
   -ms-writing-mode: lr-tb;
   writing-mode: horizontal-tb;
