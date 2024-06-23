@@ -3229,11 +3229,12 @@ main {
   font-weight: 400;
 }
 .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_price {
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.16em;
-  line-height: 2.3;
-  margin-top: 10px;
+  font-weight: 500px;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
 }
 .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_price .s-plan-1__tableTitle_price_prelabel {
   font-weight: 400px;
@@ -3249,7 +3250,7 @@ main {
   font-size: 11px;
 }
 .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_campaign {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 0px;
   color: rgb(224, 90, 0);
 }
@@ -3266,10 +3267,10 @@ main {
 .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_campaign .s-plan-1__tableTitle_campaign_price {
   margin-top: 0px;
   line-height: 1.8;
-  font-weight: 500px;
-  line-height: 1.4;
-  letter-spacing: 0.1em;
-  font-size: 24px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  line-height: 2.3;
 }
 .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_campaign .s-plan-1__tableTitle_campaign_price .s-plan-1__tableTitle_campaign_price_prelabel {
   font-weight: 400px;
