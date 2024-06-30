@@ -3323,3 +3323,6 @@ main {
   font-weight: 800;
   letter-spacing: 0.1em;
 }
+.s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList_caption_campaign:nth-of-type(1) {
+  margin-top: 16px;
+}
