@@ -3249,6 +3249,18 @@ main {
   letter-spacing: 0.07em;
   font-size: 11px;
 }
+.s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_price__description {
+  font-weight: 400px;
+  line-height: 1.4;
+  letter-spacing: 0.07em;
+  font-size: 11px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+.s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_price__description.-red {
+  color: rgb(224, 90, 0);
+  font-weight: 700;
+}
 .s-plan-1 .s-inner .s-plan-1__table .s-plan-1__tableList .s-plan-1__tableTitle .s-plan-1__tableTitle_campaign {
   margin-top: 20px;
   margin-bottom: 0px;
